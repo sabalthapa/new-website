@@ -1,0 +1,97 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Outfit:wght@500&display=swap');
+/* Navbar */
+.nav{
+    background-color: black;
+    padding: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.span1{
+    color: rgb(214, 159, 72);
+    font-size: 23px;
+    float: left;
+}
+.a1,.a2,.a3{
+  font-size: 23px;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 26px;
+  float: right;
+}
+/* Introduction  Section */
+.hello{
+font-size: 54px;
+font-family: 'Outfit', sans-serif;
+color: rgb(70, 211, 93);
+font-weight: 900px;
+}
+.mynameis{
+    font-size: 54px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(70, 211, 93);
+    font-weight: 900px;
+}
+.sabal{
+    font-size: 54px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(70, 211, 93);
+    font-weight: 900px;
+}
+.is{
+    font-size: 54px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(70, 211, 93);
+    font-weight: 900px;
+}
+.hello-section{
+    padding-left:6px;
+    padding-top: 6px;
+}
+/* background image */
+body{
+    background-image: url(background1.jpg);   
+    background-size: cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center; }
+    /* About */
+    .myself{
+        color: blueviolet;
+        font-family: 'Outfit', sans-serif;
+    }
+    .p1{
+        text-align: justify;
+        text-align-last: justify;
+        margin-right :316px;
+        font-size: 23px;
+        color: rgb(35, 110, 60);
+        font-family: 'Oswald', sans-serif;
+    }
+    /* Contact Section */
+    .form{
+   color: rgb(122, 122, 189);
+    }
+    fieldset{
+        padding-right: 82px;
+        padding-top: 20px;
+        padding-left: 122px;
+        margin-right: 890px;
+        background-image: url(backgroundofform.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .inputmain{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .yourinfo{
+        text-align: center;
+        color: rgb(128, 128, 209);
+    }
+   #youaredone{
+       color: blueviolet;
+       font-size: 23px;
+   }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabal Thapa</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+           <a href="index.html"> <span class="span1"> Sabal Thapa </span></a>
+            <nav class="nav2">
+                <a href="contact.html" class="a2">Contact me</a>
+                <a href="about.html" class="a1">About</a>
+                <a href="index.html" class="a3">Home</a>
+     
+            </nav>
+        </div>
+    </div>
+    <div class="maincontact">
+        <form class="form">
+            <div class="inputmain">
+            <fieldset>
+              <h1 class="yourinfo">Your Information</h1>
+            Full Name<input class="input1" type="text" ><br><br>
+            Phone Number<input class="input2" type="number" ><br><br>
+            Email<input   class="input3"   type="email" ><br><br>
+            Address<input class="input4" type="text" ><br><br>
+            <input  onclick="myFunction()" class="input5"  type="reset" value="Submit" >
+           <input   class="input6"   type="reset" ><br><br>
+            </fieldset>
+            </div>
+        </form>
+        <p id="youaredone"></p>
+    </div>
+</body>
+<script>
+    function myFunction(){
+    document.getElementById("youaredone").innerHTML="You are done now you can go back!"
+    }
+</script>
+</html>
